@@ -1,4 +1,3 @@
-# .github
 # Messy Virgo
 
 Welcome to the official GitHub organization for the Messy Virgo project.
