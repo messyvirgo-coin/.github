@@ -46,15 +46,3 @@ Each repository within this organization includes its own license terms.
 ---
 
 For the most accurate information, refer to the official Messy Virgo channels and upcoming litepaper releases.
-
-## Hi there 👋
-
-<!--
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction – what is your organization all about?  
-🌈 Contribution guidelines – how can the community get involved?  
-👩‍💻 Useful resources – where can the community find your docs?  
-🍿 Fun facts – what does your team eat for breakfast?  
-🧙 Remember, you can do mighty things with the power of Markdown!
--->
