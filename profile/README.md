@@ -1,67 +1,89 @@
 # Messy Virgo
 
-Welcome to the official GitHub organization for the Messy Virgo crypto project and the **$MESSY** AI agent token on Base.
+Official GitHub organization for **Messy Virgo** and **$MESSY** on Base — an AI fund agent built for transparent, inspectable portfolio decisions.
 
 ---
 
 ## Overview
 
-Messy Virgo is an AI-native initiative building an on-chain **agent stack** that turns complex fund-style tooling into an approachable experience for everyday crypto users and active traders.
+Messy Virgo builds a **transparent AI fund agent** on Base: research lenses feed governed council decisions, and only certified outcomes can move toward on-chain execution — with public minutes and weekly fund updates as the proof.
 
-Instead of a black-box "AI trading bot," Messy focuses on transparent, lens-based intelligence across three core analytical dimensions (technical, macro-economic, and social/narrative) that anyone can inspect, question, and use to inform their own decisions.
+Instead of a black-box trading bot, the stack makes the path from evidence to decision inspectable: screening and research surfaces prepare dated context; specialized council agents deliberate; the Chair decides (no per-seat vote); the system records the resolution; gates and planning sit between intent and on-chain mutation.
 
-- **Token**: $MESSY (Base CA: `0x09f87f948c88848363b124c9099cbb58e4cc7cb6`)
-- **Core Focus**: Multi-dimensional agentic due diligence (technical, macro, social/narrative), lens-based market analysis, and eventually autonomous-but-constrained fund orchestration
-- **Community**: Narrative-driven, security-conscious, and oriented around open progress logs rather than hype-only campaigns
-
----
-
-## Current Product Surface
-
-The GitHub org tracks the implementation of Messy's growing agent toolchain and on-chain infrastructure.
-
-- **Agentic Due Diligence Engine** – A modular "lens" stack that ingests social, news, on-chain, and market data to surface structured insights, not raw noise
-- **[Technical Analysis Lens](https://app.messyvirgo.com/technical-analyses) (live dApp)** – Produces structured snapshots of trend, momentum, volatility, market health, and key price levels for any supported token
-- **[Macro Economic Lens](https://app.messyvirgo.com/macro-economics) (live dApp)** – Provides higher-level market regime and risk context to complement short-term technical signals
-- **[Social & Narrative Lens](https://app.messyvirgo.com/social-narrative) (live dApp)** – Monitors community sentiment, social media engagement, narrative momentum, and influencer activity to surface narrative-driven context for token due diligence
-- **[Market Vibe Daily](https://www.messyvirgo.com/dapps/market-vibe-daily-base-app.html) (Base Mini App)** – Daily macro regime summary and risk context in ~2 minutes, delivered as a Base Mini App powered by the Messy Virgo AI engine
-- **Messy Virgo CLI (`@messyvirgo/cli`)** – Command-line interface for interacting with the Messy Virgo API; used by agents and operators to query fund status, run screens, and access lens data
-- **Treasury & Fund Infrastructure** – Audited, renounced Base token contracts, treasury routing, and tracking to support future fund execution layers once the agent is ready
+- **Token**: $MESSY on Base — `0x09f87f948c88848363b124c9099cbb58e4cc7cb6`
+- **Core focus**: Screening → council → plan → sign → reconcile, with explicit risk and approval gates
+- **Operating posture today**: Pre-live / human-reviewed micro funds on Guru Lotus; per-fund execution authority exists, default remains human review
+- **Community**: Open build log and fund updates over hype-only campaigns
 
 ---
 
-## Roadmap & Phases
+## Current product surface
 
-Messy Virgo follows a multi-phase roadmap that moves from culture and narrative curation into full agentic portfolio orchestration:
+**Funds are the product. Research tools are the engine. Updates are the proof.**
 
-- **Phase 1 – Culture Engine (live)**: Community, narratives, and transparency-first treasury tracking to anchor trust before automation
-- **Phase 2 – Minimum Viable Intelligence (live)**: Lens-based Agentic Due Diligence Engine, including the [Technical Analysis Lens](https://app.messyvirgo.com/technical-analyses), [Macro Economic Lens](https://app.messyvirgo.com/macro-economics), [Social & Narrative Lens](https://app.messyvirgo.com/social-narrative), token screening, and the Market Vibe Daily Base Mini App
-- **Phase 3 – Autonomous Trader (in progress)**: Math-driven portfolio optimization and live strategy execution for on-chain funds, operating under explicit risk and governance constraints
-- **Phase 4 – DAO Transition (planned)**: Progressive handover of treasury and strategy parameters to the community via on-chain governance
+Live app: **[app.messyvirgo.com](https://app.messyvirgo.com)** (*Crypto Research & Fund Operations*)
+
+### Platform
+
+- **[Funds](https://app.messyvirgo.com/funds)** — Flagship and micro test funds with live performance, screening insights, and agent councils (including public council minutes)
+- **[Council Agents](https://app.messyvirgo.com/agents)** — First-party council personas (PMs, Risk, Chair); seats analyze and propose, the Chair decides, the system records
+
+### Market intelligence
+
+- **[Macros](https://app.messyvirgo.com/macro-economics)** — Macros Brief and Macros Report for market backdrop and crypto risk context
+- **[News Signals](https://app.messyvirgo.com/reports/news)** — Curated macro and crypto news context, impact scores, and resolved evidence
+- **[Narrative Momentum](https://app.messyvirgo.com/narratives)** — Which crypto narratives are winning or fading, with composition breakdowns
+
+### Due diligence signals
+
+- **[Performance Signals](https://app.messyvirgo.com/due-diligence/performance)** — Trend quality, timing, and risk
+- **[Social Signals](https://app.messyvirgo.com/due-diligence/social)** — Attention, sentiment shifts, and influencer dynamics
+- **[Security Signals](https://app.messyvirgo.com/due-diligence/security)** — Protocol security, holder concentration, and liquidity resilience
+
+### Public proof (website)
+
+- **[Fund updates](https://www.messyvirgo.com/updates/)** — Weekly workflow proof track for micro test funds
+- **[Build log](https://www.messyvirgo.com/buildlog.html)** — Weekly shipping receipts
+- Decision-pipeline primers: [Part 1](https://www.messyvirgo.com/blog/2026/06/messy-virgo-decision-pipeline-part-1-the-ai-investment-council/) · [Part 2](https://www.messyvirgo.com/blog/2026/06/messy-virgo-decision-pipeline-part-2-the-decision-to-execution-bridge/)
+
+### Tooling & infrastructure
+
+- **Messy Virgo CLI (`@messyvirgo/cli`)** — Operator/agent interface for funds, council, screening, and research data
+- **[Market Vibe Daily](https://www.messyvirgo.com/dapps/market-vibe-daily-base-app.html)** — Base Mini App: daily macro regime summary in ~2 minutes
+- **Treasury & token infrastructure** — Audited, renounced Base token contracts and public treasury tracking
+
+---
+
+## Roadmap & phases
+
+- **Phase 1 – Culture Engine (live)** — Community, narratives, and transparency-first treasury tracking
+- **Phase 2 – Minimum Viable Intelligence (live)** — Market intelligence + due-diligence signals, token screening, and the research substrate for fund decisions
+- **Phase 3 – Fund workflow / council → execution (live on micro funds)** — Math-backed rebalance planning and Guru Lotus execution under explicit gates; intensive public testing on micro funds; broader autonomy only as policy and proof allow
+- **Phase 4 – DAO Transition (planned)** — Progressive handover of treasury and strategy parameters via on-chain governance
 
 ---
 
 ## Documentation
 
-Documentation is being aligned with the public website and dApps rather than a static PDF-only experience:
-
-- **Interactive Litepaper** – Hosted on messyvirgo.com with tokenomics, security model, and the full AI roadmap
-- **Product Docs** – Per-module documentation (e.g., Technical Analysis Lens behavior, data model, limitations) will be published alongside each dApp and service as repos mature
-- **Build Log** – Weekly updates on marketing, product, and infra decisions, including audits, data provider changes, and new lenses
+- **[Website](https://www.messyvirgo.com)** — Product narrative, litepaper, and public proof surfaces
+- **[App](https://app.messyvirgo.com)** — Live funds, council, market intelligence, and due-diligence signals
+- **[Fund updates](https://www.messyvirgo.com/updates/)** — Frozen weekly snapshots of the fund workflow
+- **[Build log](https://www.messyvirgo.com/buildlog.html)** — What shipped, week by week
+- **Per-module docs** — Grow alongside each public repo and dApp as surfaces mature
 
 ---
 
-## Getting Involved
+## Getting involved
 
-This organization is the home for Messy's open-source components, smart contracts, and technical specs.
+This organization hosts Messy’s public technical work: website, tooling, agents packs, and related open components.
 
-- Watch for public issues, bounties, and tagged "good first issues" as individual repos open up
-- Explore the live experience via the website and dApps, then use GitHub to track how the stack is actually built over time
+- Start with the [app](https://app.messyvirgo.com), the [latest fund update](https://www.messyvirgo.com/fund-update/), and the [build log](https://www.messyvirgo.com/buildlog.html)
+- Follow shipping in the public repos below; watch for issues and contribution paths as individual projects open further
 
 ---
 
 ## License
 
-Each repository within this organization includes its own license terms. Always check the LICENSE file before using code in production.
+Each repository includes its own license terms. Check the LICENSE file before using code in production.
 
-For the most accurate, up-to-date information, refer to [messyvirgo.com](https://messyvirgo.com/) and linked official channels.
+For the most accurate, up-to-date information, use [messyvirgo.com](https://www.messyvirgo.com/) and linked official channels.
